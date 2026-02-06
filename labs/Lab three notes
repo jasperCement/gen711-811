@@ -1,0 +1,20 @@
+Lab three notes
+pwd 'print working directory' reveals directory
+ls 'list' reveals contents
+if you add a single quotation mark, you have to add the other one before anything else will happen. Control-C (control cancel) also works.
+tab autocompletes
+man (manual) shows the manual for the command following it. Q escapes this. Googling it often works better.
+ls -lrth prints details about the directory
+head prints the file
+cd ../ backs you up a directory layer, and cd ../../ does it twice. Continue ad infinatum.
+to return to home directory (your username), cd ~
+relative paths go from where you are, ABSOLUTE paths begin at the base of the computer. pwd is absolute. cd/home/users/jwc1076/gen711-811/shell_data/ is absoulte. This will be on the practical.
+$ allows you to access variables by going $'variable'
+echo prints thing
+grep is a text search, similar to cntrl f. keep the thing you're serachign for in quotes. grep "@" fileofinterest. grep '^@' means they must begin with it
+> redirects into a file if followed by a file name
+ls *fastq will only list those files with fastq in the name
+| is the pipe special character. Pretty much the same as in r, combines lines.
+wc is word count
+less lets you scroll through a file
+ls /home/users/jwc1076/gen711/shell_data/untrimmed.fastq/SRR etc lists by absolute path
